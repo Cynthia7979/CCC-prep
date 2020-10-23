@@ -9,3 +9,13 @@ I can do it!
 * **[Past Tests](https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc)**
 * [CCC Grader](https://cccgrader.com)
 * [Details](https://cemc.uwaterloo.ca/contests/computing/details.html)
+
+## Updates
+#### 2020/10/23
+Well, though I'm losing another piece of confidence on my problem solving skills...
+
+![screenshot](https://github.com/Cynthia7979/CCC-prep/blob/main/resources/"Screenshot 2020-10-23 182522.png")
+
+... the grader (tester) I wrote is running incredibly smooth!
+
+Can I submit this with my application if I did terrible on the competition? :joy:

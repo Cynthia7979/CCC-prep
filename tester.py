@@ -5,7 +5,7 @@ import subprocess
 
 YEAR = 2020
 LEVEL = 'j'
-FILE = 'j3'
+FILE = 'j4'
 
 
 def name(filename):
@@ -47,11 +47,11 @@ def main():
                 output = output.strip("b").strip("'").replace('\\r\\n', '\n')
                 if output.endswith('\n'): output = output[:-1]
             with open(os.path.join(data_path, test_data_out[test_case])) as outfile:
-                supposed_output = outfile.read()
+                supposed_output = outfile.read().replace('\n', '')
                 if output == supposed_output:
                     print(f'[OK] {test_case}')
                 else:
-                    print(f'[ISSUE] {test_case}: \n{supposed_output}\n---------\n{output}')
+                    print(f'[ISSUE] {test_case}: \nSupposed: {supposed_output}\n---------\nGot: {output}')
         except KeyError:
             print(f'[KEYERROR] {test_case}')
 
