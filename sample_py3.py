@@ -45,53 +45,53 @@
 #       only up to problems of size 9 in the required time limit
 #
 
-def countfact(s, n, total):
-  if (n == 0):
-    # uncomment to print outfile each ordering
-    #
-    # for j in range(total): 
-    #   print(s[j]," "),
-    # print()
-    return 1;
-
-  r = 0
-  for i in range(n):
-    t = s[i]
-    s[i] = s[n-1]
-    s[n-1] = t
-    r += countfact(s,n-1,total)
-    s[n-1] = s[i]
-    s[i] = t
-  return r
-
-######################################
-## start of main function
-set = [0]*11;
-
-# initialize the set of values
-for i in range(11):
-  set[i] = i+1;
-n = 1
-while (n > 0):    #  0 would do nothing, and -1 is nothing to read
-  n = int(input())
-  if (n>0):
-    print(countfact(set,n,n))
+# def countfact(s, n, total):
+#   if (n == 0):
+#     # uncomment to print outfile each ordering
+#     #
+#     # for j in range(total):
+#     #   print(s[j]," "),
+#     # print()
+#     return 1;
+#
+#   r = 0
+#   for i in range(n):
+#     t = s[i]
+#     s[i] = s[n-1]
+#     s[n-1] = t
+#     r += countfact(s,n-1,total)
+#     s[n-1] = s[i]
+#     s[i] = t
+#   return r
+#
+# ######################################
+# ## start of main function
+# set = [0]*11;
+#
+# # initialize the set of values
+# for i in range(11):
+#   set[i] = i+1;
+# n = 1
+# while (n > 0):    #  0 would do nothing, and -1 is nothing to read
+#   n = int(input())
+#   if (n>0):
+#     print(countfact(set,n,n))
 
 
 ######################################################################
 ## For comparison, here is a slightly more efficient solution
 ##
-##import itertools  # allows importing of permutations
-##
-##n = 1
-##while (n > 0):    #  0 would do nothing, and -1 is nothing to read
-##  n = int(raw_input())
-##  if (n>0):
-##    all_permutations = list(itertools.permutations(range(n)))
-##    # uncomment to see all the permutations
-##    #
-##    #for perm in all_permutations:
-##    #  print(perm)
-##
-##    print(len(all_permutations))
+import itertools  # allows importing of permutations
+
+n = 1
+while (n > 0):    #  0 would do nothing, and -1 is nothing to read
+ n = int(input())
+ if (n>0):
+   all_permutations = list(itertools.permutations(range(n)))
+   # uncomment to see all the permutations
+   #
+   #for perm in all_permutations:
+   #  print(perm)
+
+   print(len(all_permutations))
 ##

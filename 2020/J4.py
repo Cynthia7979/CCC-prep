@@ -1,4 +1,4 @@
-# Clearly non-efficient solution:
+# Clearly non-efficient solution but still got a pretty good testing time:
 def find_cyclic_shift(s):
     shifts = [s]
     l = len(s)
