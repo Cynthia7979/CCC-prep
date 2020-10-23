@@ -47,7 +47,7 @@
 
 def countfact(s, n, total):
   if (n == 0):
-    # uncomment to print out each ordering
+    # uncomment to print outfile each ordering
     #
     # for j in range(total): 
     #   print(s[j]," "),
