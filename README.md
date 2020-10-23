@@ -14,7 +14,7 @@ I can do it!
 #### 2020/10/23
 Well, though I'm losing another piece of confidence on my problem solving skills...
 
-![screenshot](https://github.com/Cynthia7979/CCC-prep/blob/main/resources/"Screenshot 2020-10-23 182522.png")
+![screenshot](https://github.com/Cynthia7979/CCC-prep/blob/main/resources/"Screenshot_2020-10-23_182522.png")
 
 ... the grader (tester) I wrote is running incredibly smooth!
 
