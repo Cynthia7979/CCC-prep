@@ -3,9 +3,9 @@ import re
 import subprocess
 
 
-YEAR = 2020
+YEAR = 2019
 LEVEL = 'j'
-FILE = 'j5_s2'
+FILE = 'j2'
 
 
 def name(filename):
@@ -22,7 +22,9 @@ def suffix(filename):
 def main():
     test_data_in = {}
     test_data_out = {}
-    data_path = f'./{YEAR}/all_data/{"junior_data" if LEVEL == "j" else "senior_data"}/{FILE.lower()}/'
+    data_path = f'./{YEAR}/all_data/{"junior_data" if LEVEL == "j" else "senior_data"}/{FILE.lower()}/'  # For 2020
+    if not os.path.exists(data_path):
+        data_path = f'./{YEAR}/all_data/{FILE.lower()}/'  # 2019,
     code_path = f'./{YEAR}/{FILE}.py'
     for root, dirs, files in os.walk(data_path):
         for f in files:
