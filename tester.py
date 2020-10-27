@@ -5,7 +5,7 @@ import subprocess
 
 YEAR = 2019
 LEVEL = 'j'
-FILE = 'j2'
+FILE = 'J5'
 
 
 def name(filename):
@@ -44,11 +44,10 @@ def main():
     for test_case in test_data_in.keys():
         try:
             with open(os.path.join(data_path, test_data_in[test_case])) as stdin:
-                output = str(subprocess.run(
+                output = str(subprocess.check_output(
                     f'python {code_path}',
-                    stdin=stdin,
-                    capture_output=True
-                ).stdout)
+                    stdin=stdin
+                ))
                 output = output.strip("b").strip("'").replace('\\r\\n', '\n')
                 if output.endswith('\n'): output = output[:-1]
             with open(os.path.join(data_path, test_data_out[test_case])) as outfile:
