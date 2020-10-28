@@ -1,0 +1,6 @@
+input()
+old = input().replace('.', '0').replace('C', '1')
+new = input().replace('.', '0').replace('C', '1')
+onum = int(old, base=2)
+nnum = int(new, base=2)
+print(bin(onum & nnum).replace('b','')[1:].count('1'))
