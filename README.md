@@ -10,6 +10,40 @@ I can do it!
 * [CCC Grader](https://cccgrader.com)
 * [Details](https://cemc.uwaterloo.ca/contests/computing/details.html)
 
+## File Formats
+For test cases, you'll have to download necessary zips from `Past Tests` above.
+They are located on the page for each year's CCC problem sets. When you unzip them, remember to *only* keep the `all_data`
+folder. 
+
+`tester.py` is designed for 2020-2019 test cases. For former contests, adjust the file structure so it resembles:
+
+```
+| all_data/
+    | j1/
+    | j2/
+    | ...
+    | s1/
+    | s2/
+    | ...
+```
+
+or:
+
+```
+| all_data/
+    | junior_data/
+        | j1/
+        | j2/
+        | j3_s1/
+        | ...
+    | senior_data/
+        | s1/
+        | s2/
+        | ...
+```
+
+Code files must be named according to the folder of the problem.
+
 ## Updates
 #### 2020/10/23
 Well, though I'm losing another piece of confidence on my problem solving skills...

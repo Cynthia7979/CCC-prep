@@ -3,9 +3,9 @@ import re
 import subprocess
 
 
-YEAR = 2018
-LEVEL = 'j'
-FILE = 'J2'
+YEAR = 2020
+LEVEL = 's'
+FILE = 'S1'
 
 
 def name(filename):
