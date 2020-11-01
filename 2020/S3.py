@@ -1,0 +1,16 @@
+needle = list(input())
+needle.sort()
+haystack = input()
+count = set()
+for i1 in range(0, len(haystack)-len(needle)+1):
+    i2 = i1+len(needle)
+    # print(i1, i2)
+    temp = list(haystack[i1:i2])
+    temp.sort()
+    # print(temp, '\n', needle)
+    if temp == needle:
+        count.add(haystack[i1:i2])
+        # print('yes')
+        # print(i1, i2, haystack[i1:i2],count)
+    # print()
+print(len(count))
