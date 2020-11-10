@@ -3,9 +3,9 @@ import re
 import subprocess
 
 
-YEAR = 2020
+YEAR = 2019
 LEVEL = 's'
-FILE = 'S3'
+FILE = 'S2'
 
 
 def should_skip(filename):
