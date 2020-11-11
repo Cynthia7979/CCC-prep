@@ -22,4 +22,4 @@ for i in range(int(input())):
             if prime(p) and prime(q):
                 print(p, q)
                 break
-        print('no!', avg)
+        # print('no!', avg)

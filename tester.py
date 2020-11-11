@@ -5,7 +5,7 @@ import subprocess
 
 YEAR = 2019
 LEVEL = 's'
-FILE = 'S2'
+FILE = 'S3'
 
 
 def should_skip(filename):
