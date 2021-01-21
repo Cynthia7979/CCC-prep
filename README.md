@@ -7,8 +7,9 @@ I can do it!
 * *[Competitive Programming](https://cpbook.net)*
 * [PDF] *[Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)*
 * **[Past Tests](https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc)**
-* [CCC Grader](https://cccgrader.com)
+* **[CCC Grader](https://cccgrader.com/home.php)**
 * [Details](https://cemc.uwaterloo.ca/contests/computing/details.html)
+* [Unofficial Solutions](http://mmhs.ca/ccc/index.htm)
 
 ## File Formats
 For test cases, you'll have to download necessary zips from `Past Tests` above.
