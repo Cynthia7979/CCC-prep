@@ -9,7 +9,7 @@ I can do it!
 * **[Past Tests](https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc)**
 * **[CCC Grader](https://cccgrader.com/home.php)**
 * [Details](https://cemc.uwaterloo.ca/contests/computing/details.html)
-* [Unofficial Solutions](http://mmhs.ca/ccc/index.htm)
+* [Reference Solutions](http://mmhs.ca/ccc/index.htm) (Unofficial)
 
 ## File Formats
 For test cases, you'll have to download necessary zips from `Past Tests` above.
