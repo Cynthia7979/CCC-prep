@@ -1,6 +1,6 @@
 while True:
     length, *sequence = [int(i) for i in input().split()]
-    if not sequence:
+    if length == 0:
         break
     if length == 1:
         print(0)
